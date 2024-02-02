@@ -1,0 +1,35 @@
+body
+{
+    background-color: aliceblue;
+}
+.title
+{
+    height:50px;
+    background-color:blanchedalmond;
+}
+.context
+{
+    background-color:bisque;
+}
+.unit
+{
+    font-size:x-large;
+    border:2px solid rgb(247, 156, 19);
+    border-radius:50px;
+}
+.lsn
+{
+    font-size:x-large;
+}
+table
+{
+    width:100%;
+}
+img
+{
+    height:300;
+}
+a{
+    font-weight: 600;
+    font-size:larger;
+}
