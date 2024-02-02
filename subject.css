@@ -32,9 +32,14 @@ table
 }
 img
 {
-    height:300;
+    height:250;
 }
-a{
+a
+{
     font-weight: 600;
     font-size:larger;
+}
+table
+{
+    align-items: center;
 }
