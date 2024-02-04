@@ -39,3 +39,8 @@ table
 {
     align-items: center;
 }
+
+marquee
+{
+    font-weight:400;
+}
