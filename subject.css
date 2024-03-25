@@ -30,6 +30,16 @@ body
 {
     height:200;
 }
+.mnu
+{
+    font-weight:700;
+    font-size:x-large;
+    border-bottom:2px solid grey;
+}
+p.mnu
+{
+    line-height:70px;
+}
 a
 {
     font-weight: 600;
