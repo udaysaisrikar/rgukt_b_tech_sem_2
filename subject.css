@@ -2,6 +2,25 @@ body
 {
     background-color: aliceblue;
 }
+a
+{
+    font-weight: 600;
+    font-size:larger;
+}
+table
+{
+    align-items: center;
+}
+marquee
+{
+    font-weight:400;
+}
+
+font
+{
+    font-weight:bold;
+    font-size: x-large;
+}
 .title
 {
     height:50px;
@@ -30,27 +49,119 @@ body
 {
     height:200;
 }
-.mnu
+table
 {
-    font-weight:700;
-    font-size:x-large;
-    border-bottom:2px solid grey;
+    width:100%;
 }
 p.mnu
 {
-    line-height:70px;
+    font-weight:700;
+    font-size:xx-large;
+    border-bottom:2px solid grey;
 }
-a
+.dis_table
 {
-    font-weight: 600;
-    font-size:larger;
+    padding:45px;
 }
-table
+table.mnu
 {
-    align-items: center;
+    padding: 05px;
+}
+#welcome
+{
+    font-weight:bold;
+    font-size: xx-large;
+}
+#menu
+{
+    font-weight:bold;
+    font-size: xx-large;
 }
 
-marquee
+
+@media screen and (max-width: 600px)
 {
-    font-weight:400;
+    h1
+    {
+        font-size:large;
+    }
+    table
+    {
+        width:100%;
+    }
+    font
+    {
+        font-weight:bold;
+        font-size:xx-small;
+    }
+    a
+    {
+        font-weight: 400;
+        font-size:small;
+    }
+    h3
+    {
+        font-size:small;
+        font-weight:700;
+    }
+    #welcome
+    {
+        font-weight:bold;
+        font-size:large;
+    }
+    #menu
+    {
+        font-weight:bold;
+        font-size:xx-large;
+    }
+    #about
+    {
+        font-size:x-small;
+        font-weight: 300;
+    }
+    .icon
+    {
+        height: 60px;
+    }
+    table.dis_table
+    {
+        padding: 20px;
+    }
+    .dis_table
+    {
+        padding: 14px;
+    }
+    .dis_p
+    {
+        font-size: xx-small;
+    }
+    p.mnu
+    {
+        line-height:70px;
+        font-weight:800;
+        font-size:x-large;
+    }
+    table.mnu
+    {
+        padding: 05px;
+    }
+}
+
+@media screen and (max-width: 100px)
+{
+    p.mnu
+    {
+        line-height:70px;
+        font-weight:500;
+        font-size:7px;
+    }
+    table.mnu
+    {
+        padding: 05px;
+    }
+    #menu
+    {
+        font-weight:bold;
+        font-size:large;
+    }
 }
