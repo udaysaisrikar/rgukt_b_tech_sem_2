@@ -159,6 +159,7 @@ table.mnu
         line-height:30px;
         font-weight:500;
         font-size:small;
+        border-bottom:1px solid grey;
     }
     table.mnu
     {
