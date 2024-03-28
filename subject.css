@@ -126,7 +126,7 @@ table.mnu
     }
     .icon
     {
-        height: 50px;
+        height: 55px;
     }
     table.dis_table
     {
@@ -134,7 +134,7 @@ table.mnu
     }
     td.dis_table
     {
-        padding: 15px;
+        padding: 20px;
     }
     .dis_p
     {
@@ -156,13 +156,13 @@ table.mnu
 {
     p.mnu
     {
-        line-height:70px;
+        line-height:30px;
         font-weight:500;
-        font-size:7px;
+        font-size:small;
     }
     table.mnu
     {
-        padding: 05px;
+        padding: 5px;
     }
     #menu
     {
