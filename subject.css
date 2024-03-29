@@ -124,6 +124,10 @@ table.mnu
         font-size:x-small;
         font-weight: 300;
     }
+    #colapse
+    {
+        display: none;
+    }
     .icon
     {
         height: 55px;
